@@ -1,0 +1,60 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.card{
+    width: 300px;
+    height: auto;
+    background-color:#7cb1f3;
+    margin: 150PX auto;
+    border-radius: 5px;
+    color: white;
+
+}
+#title{
+    color: #ffffff;
+    background-color: #337ed8;
+    text-align: center;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 23px;
+    padding: 5px;
+    
+}
+.inputbar{
+    display: flex;
+    justify-content: space-evenly;
+}
+#input{
+    border-radius: 5px;
+    color: black;
+    height: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-style: hidden;
+
+}
+input:focus{
+    outline:none;
+}
+
+
+#add{
+    border-radius: 5px;
+    border-color: #ebebeb;
+    border-style: solid;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    margin-bottom: 10px;
+    height: 28px;
+    width: 60px;
+    background-color: #337ed8;
+    font-size: 10px;
+    font-weight: bold;   
+}
+
+#task{
+   margin-left: 20px;
+   padding: 5px;
+   font-size: 24px;
+   line-height: 10px;
+}
